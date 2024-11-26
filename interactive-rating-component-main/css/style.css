@@ -1,0 +1,115 @@
+.container {
+  background-color: hsl(214, 13%, 11%);
+  padding: 2rem;
+  border-radius: 15px;
+  min-width: 250px;
+  max-width: 350px;
+}
+.container .star {
+  background-color: hsl(213, 19%, 18%);
+  padding: 17px;
+  border-radius: 50%;
+}
+.container h1 {
+  font-size: 1.5rem;
+}
+.container p {
+  color: hsl(217, 12%, 63%);
+  line-height: 1.5rem;
+}
+.container .rating-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.container .rating-buttons button {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.container .submit-button {
+  background-color: #f37d36;
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  padding: 20px 20px;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.rating-buttons button:hover {
+  background-color: #f37d36;
+  color: #000;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #ffffff;
+  color: #000;
+  cursor: pointer;
+}
+
+.container .rating-buttons .rate-button.selected {
+  background-color: #ffffff;
+  color: #000;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    margin: 0 auto;
+  }
+}
+.container2 {
+  background-color: hsl(214, 13%, 11%);
+  padding: 2rem;
+  border-radius: 15px;
+  min-width: 250px;
+  max-width: 350px;
+  text-align: center;
+}
+.container2 .sendingimg {
+  margin-top: 16px;
+}
+.container2 .thx {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 30px 0;
+}
+.container2 .thank-you-message p {
+  color: rgb(207, 137, 8);
+  background-color: hsl(213, 19%, 18%);
+  text-align: center;
+  padding: 10px 15px;
+  width: 50%;
+  margin: 20px auto;
+  border-radius: 9999px;
+}
+.container2 p {
+  text-align: left;
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+  line-height: 2rem;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  background-color: #000;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
